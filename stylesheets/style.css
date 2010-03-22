@@ -1,1 +1,7 @@
 
+#header {
+    height: 150px;
+    background-color: #788D9A;
+}
+
+a.hover { text-decoration: none; }
