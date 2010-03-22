@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+#menu ul li a:visited {
+    color: #fff;
+}
+
 #menu ul li a:hover {
     color:green;
 }
