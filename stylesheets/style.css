@@ -15,6 +15,17 @@ body {
     text-align:center;
 }
 
+#header a {
+    text-decoration:none;
+}
+
+#header a:visited {
+    color:#fff;
+}
+
+#header a:hover {
+    color:green;
+}
 #content {
 }
 
