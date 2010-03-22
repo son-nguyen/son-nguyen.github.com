@@ -1,11 +1,9 @@
 
 #header {
-    position: relative;
+    padding: 0;
     height: 150px;
     width: 100%;
     background: #202221 repeat-x;
-    visibility: visible;
-    clear: both;
 }
 
 a.hover { text-decoration: none; }
