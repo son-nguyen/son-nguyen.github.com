@@ -4,9 +4,9 @@ body {
 }
 
 #header {
-    height: 150px;
+    height: 120px;
     width: 100%;
-    background: #202221 repeat-x;
+    background: #202221; 
 }
 
 #header .title {
@@ -24,6 +24,8 @@ body {
 
 #menu {
     text-align:center;
+    background: #202221;
+    color: #FFF;
 }
 
 #menu ul {
