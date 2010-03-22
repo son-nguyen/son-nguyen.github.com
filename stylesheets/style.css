@@ -6,6 +6,10 @@
     height: 150px;
     width: 100%;
     background: #202221 repeat-x;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
 }
 
 a.hover { text-decoration: none; }
