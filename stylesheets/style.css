@@ -3,6 +3,7 @@
     height: 150px;
     width: 100%;
     background-color: #F1EFE2;
+    visibility: visible;
 }
 
 a.hover { text-decoration: none; }
