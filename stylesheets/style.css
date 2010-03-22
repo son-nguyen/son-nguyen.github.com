@@ -10,4 +10,7 @@
     top: 0px;
 }
 
+#content {
+    top: 150px;
+}
 a.hover { text-decoration: none; }
