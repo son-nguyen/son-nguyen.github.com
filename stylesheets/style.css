@@ -19,5 +19,6 @@ body {
 }
 
 #footer {
+    text-align:center;
 }
 a.hover { text-decoration: none; }
