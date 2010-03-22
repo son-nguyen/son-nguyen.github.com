@@ -9,6 +9,11 @@ body {
     background: #202221 repeat-x;
 }
 
+#header .title {
+    font-size: 3em;
+    color: white;
+}
+
 #content {
 }
 
