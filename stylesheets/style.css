@@ -23,5 +23,24 @@ body {
 }
 
 #menu {
+    text-align:center;
+}
 
+#menu ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    padding: .2em 1em;
+}
+
+#menu ul li a:hover {
+    color:green;
 }
