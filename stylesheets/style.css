@@ -1,0 +1,39 @@
+body {
+}
+
+div {
+    border: 1px blue solid;
+    width: 100%;
+}
+
+#header {
+    text-align:right;
+}
+
+#header ul {
+    list-style-type:none;
+}
+
+#header ul li {
+    display: inline;
+    padding-left: 15px;
+}
+
+#header ul li.active a {
+    color:#fff;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header a:visited {
+    color:#000;
+}
+
+#body {
+
+}
+
+#footer {
+}
