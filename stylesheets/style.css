@@ -1,6 +1,7 @@
 /* GLOBAL STYLING START ------------------------*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #F2F2F5;
 }
 
 div {
@@ -56,9 +57,6 @@ a {
    color:#000; 
 }
 
-#page-subtitle {
-
-}
 /* POSTS STYLING START -------------------------*/
 .post-date {
     color:#555555;
@@ -71,6 +69,11 @@ a {
 #body {
     font-size:12px;
     border-bottom:1px solid #787878;
+}
+
+#page-subtitle {
+    font-size: 14px;
+    font-weight: bold;
 }
 /* FOOTER STYLING START ------------------------*/
 #footer {
