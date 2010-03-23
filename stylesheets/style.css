@@ -47,6 +47,10 @@ a {
     margin: 0px;
 }
 
+#page-title a:visited {
+   color:#000; 
+}
+
 #page-subtitle {
 
 }
