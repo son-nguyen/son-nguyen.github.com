@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//END"
+    "http://www.w3.org/TR/html1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+        <meta name="author" content="Son Nguyen : son.nguyeun@gmail.com">
+        <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+        <title>Son Nguyen - {{ page.title }}</title>
+    </head>
+    <body>
+        <div id="header">
+            <p id="page-title"><a class="page-title-link" href="http://son-nguyen.github.com">Son Nguyen</a></p>
+            {% if page.random != "Home" %}
+                <p id="page-subtitle">{{ page.title }}</p>
+            {% else %}
+                <p id="page-subtitle">&nbsp</p>
+            {% endif %}
+
+            <ul>
+                <li {% if page.random == "Home" %} class="active" {% endif %}><a href="">Something</a></li>
+                <li {% if page.random == "Home" %} class="active" {% endif %}><a href="">Something</a></li>
+                <li {% if page.random == "Home" %} class="active" {% endif %}><a href="">Something</a></li>
+            </ul>
+
+        </div>
+
+        <div id="body">
+            {{ content }}
+        </div>
+       
+        <div id="footer">
+            <ul>
+                <li><a href="mailto:son.nguyeun@gmail.com">Email</a></li>
+                <li><a href="http://www.facebok.com/anh.son">Facebook</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
