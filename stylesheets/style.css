@@ -4,12 +4,17 @@ body {
 }
 
 div {
-    border: 1px blue solid;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
 }
 
 /* HEADER STYLING START ------------------------*/
 #header {
+    border-bottom: 5px solid #787878;
 }
 
 #header ul {
@@ -60,4 +65,9 @@ div {
 /* FOOTER STYLING START ------------------------*/
 #footer {
     text-align: center;
+    font-size: 10px;
+}
+
+#footer ul {
+    list-style-type: none;
 }
