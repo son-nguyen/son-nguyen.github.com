@@ -61,6 +61,7 @@ a {
 /* BODY STYLING START --------------------------*/
 #body {
     font-size:12px;
+    border-bottom:1px solid #787878;
 }
 /* FOOTER STYLING START ------------------------*/
 #footer {
@@ -70,4 +71,15 @@ a {
 
 #footer ul {
     list-style-type: none;
+}
+
+#footer ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #A7A7A7;
 }
