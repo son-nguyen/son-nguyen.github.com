@@ -16,6 +16,10 @@ body {
     text-align:center;
 }
 
+#header .subtitle {
+    font-size: 8px;
+}
+
 #header a {
     text-decoration:none;
 }
