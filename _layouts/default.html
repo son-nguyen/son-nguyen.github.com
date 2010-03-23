@@ -13,6 +13,8 @@
             <p id="page-title">Son Nguyen</p>
             {% if page.random != "Home" %}
                 <p id="page-subtitle">{{ page.title }}</p>
+            {% else %}
+                <p id="page-subtitle">" "</p>
             {% endif %}
 
             <ul>
