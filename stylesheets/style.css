@@ -7,7 +7,6 @@ body {
 #header {
     height: 100px;
     width: 100%;
-    background: #68755C; 
 }
 
 #header .title {
@@ -27,7 +26,7 @@ body {
 }
 
 #header a:visited {
-    color:#fff;
+    color:#000;
 }
 
 #header a:hover {
@@ -42,8 +41,7 @@ body {
 
 #menu {
     text-align:center;
-    background: #202221;
-    color: #FFF;
+    color: #000;
 }
 
 #menu ul {
@@ -61,7 +59,7 @@ body {
 }
 
 #menu ul li a:visited {
-    color: #fff;
+    color: #000;
 }
 
 #menu ul li a:hover {
