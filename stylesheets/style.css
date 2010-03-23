@@ -1,4 +1,6 @@
+/* GLOBAL STYLING START ------------------------*/
 body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
@@ -6,8 +8,8 @@ div {
     width: 100%;
 }
 
+/* HEADER STYLING START ------------------------*/
 #header {
-    text-align:right;
 }
 
 #header ul {
@@ -16,11 +18,14 @@ div {
 
 #header ul li {
     display: inline;
+    font-size: 12px;
     padding-left: 15px;
 }
 
 #header ul li.active a {
-    color:#fff;
+    color:#4D7484;
+    text-decoration: none;
+    border-bottom:1px dotted #4197E3;
 }
 
 #header a {
@@ -31,10 +36,28 @@ div {
     color:#000;
 }
 
-#body {
-
+#page-title {
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
 }
 
+#page-subtitle {
+
+}
+/* POSTS STYLING START -------------------------*/
+.post-date {
+    color:#555555;
+}
+
+.post-link {
+
+}
+/* BODY STYLING START --------------------------*/
+#body {
+    font-size:12px;
+}
+/* FOOTER STYLING START ------------------------*/
 #footer {
     text-align: center;
 }

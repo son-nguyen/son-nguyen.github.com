@@ -10,7 +10,10 @@
     </head>
     <body>
         <div id="header">
-            <p>Just a heading to work with </p>
+            <p id="page-title">Son Nguyen</p>
+            {% if page.random != "Home" %}
+                <p id="page-subtitle">{{ page.title }}</p>
+            {% endif %}
 
             <ul>
                 <li {% if page.random == "Home" %} class="active" {% endif %}><a href="">Something</a></li>
@@ -25,7 +28,7 @@
         </div>
        
        <div id="footer">
-            <em>Just a footer to work with</em>
+            <em><a href="mailto:son.nguyeun@gmail.com">Email</a></em>
        </div>
     </body>
 </html>
