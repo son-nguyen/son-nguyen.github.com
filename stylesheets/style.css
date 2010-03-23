@@ -74,6 +74,7 @@ a {
 }
 /* FOOTER STYLING START ------------------------*/
 #footer {
+    width: 100%;
     text-align: center;
     font-size: 10px;
 }
