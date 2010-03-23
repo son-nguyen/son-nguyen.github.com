@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 Title: Took a couple of days
 ---
 
