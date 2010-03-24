@@ -32,11 +32,12 @@ a {
 #header ul li.active a {
     color:#0099FF;
     text-decoration: none;
-    border-bottom:1px dotted #4197E3;
+    border-bottom:3px solid #4197E3;
 }
 
 #header a {
     text-decoration: none;
+    border-bottom:0px;
 }
 
 #header a:link {
