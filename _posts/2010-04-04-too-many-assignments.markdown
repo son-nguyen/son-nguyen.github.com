@@ -12,10 +12,10 @@ Was hoping that I could somehow ramp it up a little bit. There's also the About
 Page to do... and also other assignments. TT
 
 Short term goals:
-        * Finish off Web Services Development Assignment
-        * Pick up the pace with the DSA assignment.
-        * Learn more about OpenGL <--- a must
-        * Discover why I am doing Interface Design
+* Finish off Web Services Development Assignment
+* Pick up the pace with the DSA assignment.
+* Learn more about OpenGL <--- a must
+* Discover why I am doing Interface Design
 
 Also, I'm going in a second, going to watch.. forgot what movie. I'll update
 this later. I also used this time to play around with this markdown thing. 
