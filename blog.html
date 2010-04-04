@@ -1,0 +1,12 @@
+---
+layout: blog
+title: Blog
+random: blog
+---
+
+{% for post in site.posts limit:20 %}
+<p><span class="post-date">{{ post.date | date_to_string }} &raquo; </span>
+    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
+
+
+{% endfor %}
