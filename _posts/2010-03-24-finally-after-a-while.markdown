@@ -1,6 +1,7 @@
 ---
 layout: post
 Title: Took a couple of days
+random: blog
 ---
 
 It took a while, but I finally made the page look better than it did before.
