@@ -1,14 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
-    <meta name="author" content="Son Nguyen : son.nguyeun@gmail.com" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
-    <title>Son Nguyen - {{ page.title }}</title>
-</head>
-<body>
+{% include header.html %}
+{% include page-start.html %}
 {% include page-header.html %}
 
     <div id="body">
@@ -22,5 +13,4 @@
     </div>
 
 {% include page-footer.html %}
-</body>
-</html>
+{% include page-end.html %}
