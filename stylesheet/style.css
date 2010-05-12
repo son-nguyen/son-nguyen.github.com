@@ -80,6 +80,7 @@ a {
 #page-subtitle {
     font-size: 14px;
     font-weight: bold;
+    text-shadow: 0px 1px 3px #b8b8b8;
 }
 /* FOOTER STYLING START ------------------------*/
 #footer {
